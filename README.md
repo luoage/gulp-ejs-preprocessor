@@ -1,6 +1,5 @@
 ##gulp-ejs-preprocessor
 
----
 
 	var gulp = require('gulp');
 
@@ -9,6 +8,7 @@
 		.pipe(gulp.dest('./build'));
 
 ###Options
+---
 
 - function, it juse have only one param providing data to ejs files, like:
 
