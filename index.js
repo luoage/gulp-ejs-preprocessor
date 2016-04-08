@@ -21,11 +21,4 @@ var buildEjs = function(fn){
 	return transform;
 };
 
-//--------------
-
-var gulp = require('gulp');
-
-
-gulp.src('./template/**/*.ejs')
-	.pipe(buildEjs())
-	.pipe(gulp.dest('./build'));
+module.exports = buildEjs;
