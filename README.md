@@ -11,6 +11,7 @@
 
 - function, only one param providing data to ejs files, like:
 
+
 	gulp.src('./template/**/*.ejs')
 		.pipe(buildEjs(function(file, encoding){
 			return {};
